@@ -1,0 +1,203 @@
+ @import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* BARRA DE NAVEGACION */
+
+.barraNavegacion{
+    background-image: url(../img/fondo-cafe.jpeg);
+    background-color: #ffebcd;
+    background-size: contain;
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 6rem;
+}
+.imgLogo{
+    display: flex;
+    height: 8rem;
+    margin-top: 0.5rem;
+}
+.linkNav {
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+    gap: 2rem;
+    margin-top: 0.7em;
+    font-family: 'Neuton', serif;  
+}
+
+/* INDEX */
+
+.mainBiografia{
+    background-image: url(../img/van.png);
+    height: 50rem;
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+}
+.mainCafe{
+    background-image: url(../img/cultivo-cafe.jpeg);
+    height: 50rem;
+    background-size: cover;
+    text-decoration: none;
+}
+.mainTienda{
+    background-image: url(../img/cafetera-casa.jpeg);
+    height: 50rem;
+    background-size: cover;
+    text-decoration: none;
+}
+.main{
+    font-size: 5rem;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 43rem;
+
+}
+.letraMain{
+    font-family:'Protest Revolution', sans-serif ;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+/* FOOTER */
+
+.footer{
+    background-image: url(../img/fondo-cafe.jpeg);
+    background-position: top;
+    background-size: contain;
+    font-size: x-small;
+    display: flex;
+    
+    
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.footerItem{
+    display: flex;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    gap: 1rem;
+}
+.footerNombre{
+    display: flex;
+    padding-left: 10rem;
+    padding-top: 1rem;
+}
+.footerPolitica{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.footerLink{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+
+
+
+/* TIENDA */
+.btnCafe{
+    background-color: black;
+    color: blanchedalmond;
+}
+.btnCafe:hover{
+    color: tomato;
+}
+.card{
+    border: none;
+}
+.tarjetas{
+    padding: 1rem;
+    border: none;
+}
+
+
+
+
+/* CONTACTO */
+.formularioHeading{
+    text-align: center;
+    padding: 6rem;
+}
+.formulario{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    width: 50rem;
+    height: 10rem;
+    gap: 1rem;
+}
+.formularioFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Neuton', serif;;
+}
+.btnFormulario{
+    color: blanchedalmond;
+    background-color: black;
+}
+.btnFormulario:hover{
+    color: tomato;
+}
+
+/* Cultivos cafe */
+.catalina{
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+}
+.fotoCatalina{
+    height: 30rem;
+    width: 30rem;
+    border-radius: 1px black;
+}
+
+.jorge{
+    display: flex;
+    text-align: center;
+    flex-direction: row-reverse;
+    padding: 1rem;
+}
+.fotoJorge{
+    height: 30rem;
+    width: 30rem;
+}
+
+.juan{
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+}
+.fotoJuan{
+    height: 30rem;
+    width: 30rem;
+}
+.estiloCafe{
+    font-family: 'Neuton', serif;;
+}
+
+   
+
+
+
+
+
+
+
+
+
