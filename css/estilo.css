@@ -152,9 +152,11 @@
 
 /* Cultivos cafe */
 .catalina{
+    font-family: 'Neuton', serif;
     padding: 1rem;
     display: flex;
     text-align: center;
+    font-size: large;
 }
 .fotoCatalina{
     height: 30rem;
@@ -167,6 +169,8 @@
     text-align: center;
     flex-direction: row-reverse;
     padding: 1rem;
+    font-family: 'Neuton', serif;
+    font-size: large;
 }
 .fotoJorge{
     height: 30rem;
@@ -174,16 +178,15 @@
 }
 
 .juan{
+    font-family: 'Neuton', serif;
     display: flex;
     padding: 1rem;
     text-align: center;
+    font-size: large;
 }
 .fotoJuan{
     height: 30rem;
     width: 30rem;
-}
-.estiloCafe{
-    font-family: 'Neuton', serif;;
 }
 
 
@@ -202,6 +205,12 @@
 .carrusel-3{
     height: 40rem;
     width: 90rem;
+
+}
+.carruselDescripcion{
+    text-align: center;
+    font-size: large;
+    font-family: 'Neuton', serif;
 }
 
    
